@@ -38,12 +38,12 @@ Edit `main.js` to:
 > ```
 
 The following objects define labels -
-* Default Github repo labels that will be removed, are defined on line 4
+* Default Github repo labels that will be removed, are defined on line 4 - 
 > ```javascript
 > var labelsRepoDefault
 > ```
 
-* Default KanBan labels that will be added on line 37
+* Default KanBan labels that will be added on line 37 - 
 > ```javascript
 > var labelsRepoKanban
 > ```
