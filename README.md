@@ -66,3 +66,7 @@ The following objects define labels -
 
 # Dependencies
 * [git-label npm module](https://www.npmjs.com/package/git-label) with [GitHub source code](https://github.com/jasonbellamy/git-label).
+
+# License
+Copyright (c) 2017 Dawn Ahukanna 
+Licensed under the MIT license.
