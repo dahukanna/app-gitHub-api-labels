@@ -1,0 +1,15 @@
+{
+  "name": "github-api-labels",
+  "version": "1.0.0",
+  "description": "Manage repo issue labels with Github Enterprise API and Personal Access Token",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mkdir /tmp/temp"
+  },
+  "author": "Dawn Ahukanna <subs.1.scribe@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "git-label": "^4.1.1"
+  }
+}
