@@ -26,6 +26,9 @@ Use GitHub Enterprise API with Personal Access Token to manage issue labels.
 > DO NOT store this variable in the Git Repo, as it will give anyone API access to repositories you have access to.
 
 ## Configure the Project with your Personal Access Token
+1.) Clone this repository.
+
+2.) `cd` into the directory.
 Edit `main.js` to:
 * Add your target repository on line 121 -
 > ```javascript
@@ -38,27 +41,29 @@ Edit `main.js` to:
 > ```
 
 The following objects define labels -
-* Default Github repo labels that will be removed, are defined on line 4 - 
+* Default Github repo labels that will be removed, are defined on line 4 -
 > ```javascript
 > var labelsRepoDefault
 > ```
 
-* Default KanBan labels that will be added on line 37 - 
+* Default KanBan labels that will be added on line 37 -
 > ```javascript
 > var labelsRepoKanban
 > ```
 
 ## Run the Project
-1. Clone this repository.
-2. `cd` into the directory.
-3. Install NodeJs and npm
+3.) Install NodeJs and npm
     * Install/ensure you're running the right version of Node/npm.  
     * Install [Node Version Manager](https://github.com/creationix/nvm) and run `nvm use`. Or install the NodeJs version number in `.nvmrc` file, which currently is `7.2.1`.
-4. Run `npm install` to install dependencies.
-5. Run `npm start` to create the labels in your configured repository. See screenshot below for sample output after running the command.
-> ![Run Command](./images/4-RunGitHubLabels.png)
-6. Labels created shown in the following image -  
+
+4.) Run `npm install` to install dependencies.  
+
+5.) Run `npm start` to create the labels in your configured repository. See screenshot below for sample output after running the command.
+> ![Run Command](./images/4-RunGitHubLabels.png)  
+
+6.) Labels created shown in the following image -  
 > ![Labels created](./images/5-GeneratedLabels.png)
+
 
 # Files
 * `main.js` - Entrypoint for the application.
@@ -70,5 +75,5 @@ The following objects define labels -
 * [git-label npm module](https://www.npmjs.com/package/git-label) with [GitHub source code](https://github.com/jasonbellamy/git-label).
 
 # License
-Copyright (c) 2017 Dawn Ahukanna.  
+Copyright (c) 2017 Dawn Ahukanna
 Licensed under the MIT license.
