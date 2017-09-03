@@ -57,8 +57,8 @@ The following objects define labels -
 4. Run `npm install` to install dependencies.
 5. Run `npm start` to create the labels in your configured repository. See screenshot below for sample output after running the command.
 > ![Run Command](./images/4-RunGitHubLabels.png)
-6. Labels created shown in the following image  
-> ![Labels created](./images/5-Labels.png)
+6. Labels created shown in the following image -  
+> ![Labels created](./images/5-GeneratedLabels.png)
 
 # Files
 * `main.js` - Entrypoint for the application.
