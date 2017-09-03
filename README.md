@@ -53,8 +53,8 @@ The following objects define labels -
 
 ## Run the Project
 3.) Install NodeJs and npm  
-    * Install/ensure you're running the right version of Node/npm.  
-    * Install [Node Version Manager](https://github.com/creationix/nvm) and run `nvm use`. Or install the NodeJs version number in `.nvmrc` file, which currently is `7.2.1`.
+* Install/ensure you're running the right version of Node/npm.  
+* Install [Node Version Manager](https://github.com/creationix/nvm) and run `nvm use`. Or install the NodeJs version number in `.nvmrc` file, which currently is `7.2.1`.
 
 4.) Run `npm install` to install dependencies.  
 
